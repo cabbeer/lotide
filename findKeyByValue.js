@@ -19,8 +19,8 @@ const findKeyByValue = function(object, value) {
       found = property;
     }
   }
-
-  console.log(found);
+  return found
+  //console.log(found);
 
 };
 
