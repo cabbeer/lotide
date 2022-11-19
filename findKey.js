@@ -12,13 +12,21 @@ const findKey = function (object, cb) {
   }
 }
 
-
-/* tried to refactor it using arrow functions and turnery opperator, how to put if statement in else block of ternary operator?
+/*
+// tried to refactor it using arrow functions and turnery opperator, how to put if statement in else block of ternary operator?
 const findKey = (object, cb) => {
 
-  Object.keys(object).forEach(key => (typeof object[key] === 'object') ? findKey(object[key], cb) : console.log(cb(object[key])) )
+  Object.keys(object).forEach(key => (typeof object[key] === 'object') ? findKey(object[key], cb) : cb(object[keys]) {return keys} )
 
 }
+
+
+
+const findKey = (object, cb) => {
+  
+  Object.keys(object).filter(keys => object[keys] === 'object' ? findKey(object[keys], cb) : )
+}
+
 */
 
 
