@@ -33,7 +33,7 @@ const findKey = (object, cb) => {
 
 
 //callback
-
+/*
 console.log(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
@@ -63,3 +63,5 @@ console.log(findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 7)); // => "Blue Hill"
+
+*/

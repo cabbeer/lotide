@@ -58,5 +58,5 @@ const without = function(source, itemsToRemove) {
 
 module.exports = without;
 
-console.log(without([1, 2, 3], [1])) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+// console.log(without([1, 2, 3], [1])) // => [2, 3]
+// without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
