@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "0.0.1",
-  "description": "A library of helpful functions",
+  "name": "@cabbeer/lotide",
+  "version": "1.0.0",
+  "description": "A library of helpful functions. Warning: created to learn JS, not intended for actual use",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -28,3 +28,4 @@
     "mocha": "^9.2.2"
   }
 }
+z3Tefr,8Z3yY6ug
