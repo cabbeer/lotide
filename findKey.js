@@ -12,6 +12,8 @@ const findKey = function (object, cb) {
   }
 }
 
+module.exports = findKey;
+
 /*
 // tried to refactor it using arrow functions and turnery opperator, how to put if statement in else block of ternary operator?
 const findKey = (object, cb) => {

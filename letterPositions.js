@@ -54,6 +54,7 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
 
 //console.table(letterPositions('simpsons'))
 //console.table(letterPositions('kabir'))
